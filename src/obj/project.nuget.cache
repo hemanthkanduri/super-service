@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "ubkicTpiVfT+0surAf7uY6r6vIfstLz+uzpYP0vJpBWvEevm4QvsFxQGwQWMllfbko1a2RC8SLeLATyqqHTmMg==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\hkanduri\\Downloads\\DevOps interview test\\super-service\\src\\SuperService.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.VisualStudio.Azure.Containers.Tools.Targets' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.VisualStudio.Azure.Containers.Tools.Targets'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.VisualStudio.Azure.Containers.Tools.Targets"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "dgSpecHash": "oxWbphUbVh69g7Jwt+Qi1Jaqk+jB3yQx6fB3LxMIMW5KYUgD3O6Lqpo8IWfEDM70bXCDCLI9r3/W5FZxbMLjPg==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\hkanduri\\Downloads\\DevOps interview test\\super-service\\test\\SuperService.UnitTests.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'NUnit3TestAdapter' from remote source 'https://packagesource/FindPackagesById()?id='NUnit3TestAdapter'&semVerLevel=2.0.0'.",
+      "libraryId": "NUnit3TestAdapter"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.VisualStudio.Azure.Containers.Tools.Targets' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.VisualStudio.Azure.Containers.Tools.Targets'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.VisualStudio.Azure.Containers.Tools.Targets"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.NET.Test.Sdk' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.NET.Test.Sdk'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.NET.Test.Sdk"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'nunit' from remote source 'https://packagesource/FindPackagesById()?id='nunit'&semVerLevel=2.0.0'.",
+      "libraryId": "nunit"
+    }
+  ]
+}

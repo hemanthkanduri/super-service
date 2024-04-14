@@ -1,0 +1,121 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Microsoft.NET.Test.Sdk >= 16.4.0",
+      "NUnit3TestAdapter >= 3.15.1",
+      "nunit >= 3.12.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\hkanduri\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\hkanduri\\Downloads\\DevOps interview test\\super-service\\test\\SuperService.UnitTests.csproj",
+      "projectName": "SuperService.UnitTests",
+      "projectPath": "C:\\Users\\hkanduri\\Downloads\\DevOps interview test\\super-service\\test\\SuperService.UnitTests.csproj",
+      "packagesPath": "C:\\Users\\hkanduri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hkanduri\\Downloads\\DevOps interview test\\super-service\\test\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\hkanduri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://packagesource": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\hkanduri\\Downloads\\DevOps interview test\\super-service\\src\\SuperService.csproj": {
+              "projectPath": "C:\\Users\\hkanduri\\Downloads\\DevOps interview test\\super-service\\src\\SuperService.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "Microsoft.NET.Test.Sdk": {
+            "target": "Package",
+            "version": "[16.4.0, )"
+          },
+          "NUnit3TestAdapter": {
+            "target": "Package",
+            "version": "[3.15.1, )"
+          },
+          "nunit": {
+            "target": "Package",
+            "version": "[3.12.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'NUnit3TestAdapter' from remote source 'https://packagesource/FindPackagesById()?id='NUnit3TestAdapter'&semVerLevel=2.0.0'.",
+      "libraryId": "NUnit3TestAdapter"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.VisualStudio.Azure.Containers.Tools.Targets' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.VisualStudio.Azure.Containers.Tools.Targets'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.VisualStudio.Azure.Containers.Tools.Targets"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.NET.Test.Sdk' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.NET.Test.Sdk'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.NET.Test.Sdk"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'nunit' from remote source 'https://packagesource/FindPackagesById()?id='nunit'&semVerLevel=2.0.0'.",
+      "libraryId": "nunit"
+    }
+  ]
+}
